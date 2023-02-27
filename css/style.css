@@ -13,7 +13,7 @@
     width: 100%;
     height: 80%;
     background-repeat: no-repeat;
-    background-image: linear-gradient(#090909, #888686);
+    background-image: linear-gradient(#000000, #544f4f);
 }
 
 .top-content .text {
@@ -227,7 +227,7 @@
 
 /* Style the back side */
 .flip-card-back {
-    background-image: linear-gradient(blueviolet,purple);
+    background-image: linear-gradient(#090909, #ffffff);
     color: white;
     transform: rotateY(180deg);
 }
@@ -314,4 +314,21 @@ img {
 
 .fadeIn-bottom {
     top: 80%
+}
+.Phudu{
+    font-family: 'Phudu', cursive;
+
+}
+.Gloock{
+    font-family: 'Gloock', serif;
+}
+.Anton{
+    font-family: 'Anton', sans-serif;
+
+}
+.text{
+    font-family: 'Anton', sans-serif;
+}
+.text1{
+    font-family: 'Barlow Condensed', sans-serif;
 }
