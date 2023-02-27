@@ -3,6 +3,9 @@
 .top-content {
     padding: 7em;
     text-align: center;
+    background-image:url("images/IMG_20230104_000636.jpg");
+    background-repeat: no-repeat;
+
     width: 100%;
     height: 80%;
     background-repeat: no-repeat;
