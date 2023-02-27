@@ -16,13 +16,14 @@
 <body>
 <nav class="navbar navbar-expand-sm navbar-light">
     <div class="container-fluid justify-content-end">
-        <a class="navbar-brand " href="#"><img
+        <a class="navbar-brand" href="#"><img
                 src="./images/80555032_804330389992683_7467469984684310528_n-removebg-preview.png" width="20%"></a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end px-8" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse justify-content-end px-3" id="navbarSupportedContent">
             <ul class="navbar-nav ">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">HOME</a>
@@ -37,14 +38,14 @@
 
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#SECRETARIAT">SECRETARIAT</a>
+                    <a class="nav-link" href="#">SECRETARIAT</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 
-<!-- Top content -->
+<!-- Home Page -->
 <div class="top-content">
     <div class="container">
 
@@ -67,10 +68,9 @@
     </div>
 </div>
 <!--SECRETARIAT -->
-
 <div class="SECRETARIAT">
     <div class="container">
-        <h1 style="font-size: 4em"> SECRETARIAT </h1>
+        <h1 style="font-size: 3rem"> SECRETARIAT </h1>
         <div class="row col-md-12">
             <div class="row col-md-4 col-sm-2 row-cols-sm-5">
                 <div class="card card-hover">
@@ -141,6 +141,73 @@
             </div>
         </div>
     </div>
+</div>
+
+<!--Registration -->
+<div class="Registration">
+    <div class="container mt-2">
+        <h1 class="mb-3">REGISTRATION</h1>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#home">
+                    Delegate Registration</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#profile">
+                    Delegation Registration</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#contact">
+                    Study Guides</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="home">
+                <div class="row border g-0 rounded shadow-sm">
+                    <div class="col p-5">
+                        <h3>Delegate Registration</h3>
+                        <p>
+                            Register now and get the opportunity to learn, lead and become a part of the TWMUN legacy.
+                            School Committees are open to students up to 12th Grade, while College Committees are open for all.
+                            <!-- TODO Change the lines-->Change the wording since copied and pasted from IIITB
+                             </p>
+                        <button class="RegisterButton">Register Now!</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane" id="profile">
+                <div class="row border g-0 rounded shadow-sm">
+                    <div class="col p-4">
+                        <h3>Delegation Registration</h3>
+                        <p>
+                            Register now and get the opportunity to learn, lead and become a part of the TWMUN legacy.
+                            A delegation consists of 6 or more members from one institution.
+                            School Committees are open to students up to 12th Grade, while College Committees will are open for all.
+                        </p>
+                        <a class="RegisterButton">Register Now!</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane" id="contact">
+                <div class="row border g-0 rounded shadow-sm">
+                    <div class="col p-4">
+                        <h3>Study Guides</h3>
+                        <p>
+                            The study guides and delegate resources have now been released!
+                        </p>
+                        <a  class="RegisterButton">Resources</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
 </div>
 </body>
 </html>
