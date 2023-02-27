@@ -1,9 +1,10 @@
 /***** Top content *****/
 
 .top-content {
-    padding: 8em;
+    padding: 7em;
     text-align: center;
     width: 100%;
+    height: 80%;
     background-repeat: no-repeat;
     background-image: linear-gradient(blueviolet,purple);
 }
@@ -131,5 +132,20 @@
     font-size: 2em;
     transition: 0.3s;
     background:black;
+}
+
+.btn1{
+    font-size: 1.5em;
+    transition: 0.5s;
+    color: white;
+    background-image: linear-gradient(to left,#8530d1,#410179);
+    border-radius: 20px;
+}
+
+.btn1:hover{
+    font-size: 2em;
+    transition: 0.5s;
+    color: antiquewhite;
+    background-image: linear-gradient(to right,#8530d1,#410179);
 
 }
