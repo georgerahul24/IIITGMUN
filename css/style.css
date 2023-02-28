@@ -351,24 +351,15 @@ img {
 }
 #h1_1{
     border-style: solid;
-    border-left: transparent;
-    border-bottom: transparent;
-    border-top: transparent;
+    /*border-left: transparent;*/
+    /*border-bottom: transparent;*/
+    /*border-top: transparent;*/
 
     width: 30%;
 
 
 }
-.h1_committee{
-    border-style: solid;
 
-    border-style: solid;
-    border-right: transparent;
-    border-bottom: transparent;
-    border-top: transparent;
-
-    width: 30%;
-}
 
 
 
@@ -397,6 +388,12 @@ img {
 }
 
 /*piyush's part*/
+
+
+.card-body{
+    color: #fff;
+    background-color: #000000;
+}
 
 .footer {
     position: relative;
@@ -518,6 +515,29 @@ img {
 
 }
 
+/*About us*/
+#iiitgAboutus{
+    margin-left: 10%;
+}
+#yuvaanAboutus{
+    margin-left: 10%;
+}
 
 
+.h1_committee{
+    border-style: solid;
 
+    /*border-style: solid;*/
+    /*border-right: transparent;*/
+    /*border-bottom: transparent;*/
+    /*border-top: transparent;*/
+
+    width: 30%;
+}
+/*Piyush h1*/
+.piyush_h1{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 35%;
+
+}
