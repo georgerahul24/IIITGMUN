@@ -1,9 +1,17 @@
 /***** Top content *****/
 
 
+
+.navbar-sticky{
+    position: sticky;
+    background: white;
+}
 .navbar-color{
     color: white;
     background: black;
+    position: sticky;
+    border-bottom-color: white;
+
 }
 
 .top-content {
@@ -334,6 +342,12 @@ img {
 
 .body{
     background: black linear-gradient(black, #1f1d1f);
+    overflow-x: unset;
+    position: relative;
+    top:0;
+
+    left: 0;
+
 }
 #h1_1{
     border-style: solid;
@@ -498,6 +512,10 @@ img {
     100% {
         background-positon-x: 0px;
     }
+}
+
+#aboutus{
+
 }
 
 
