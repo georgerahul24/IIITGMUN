@@ -397,8 +397,16 @@ img {
 .flip-card-margin {
     margin-bottom: 10%;
     margin-right: 0%;
+    margin-left: 0%;
+}
+.flip-card-disabled{
+    background: transparent;
+    color: transparent;
 }
 
+.margin-override{
+    margin: 0px;
+}
 /*piyush's part*/
 
 
@@ -677,3 +685,4 @@ img {
     transition: 0.2s;
     border-radius: 3%;
 }
+
