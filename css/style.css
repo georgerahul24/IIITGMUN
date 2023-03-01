@@ -245,6 +245,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 /*Commitee*/
@@ -620,17 +621,17 @@ img {
 }
 
 .card-header-modify {
-    background: #D9ACF5;
+    background: #F3CCFF;
     color:#645CBB;
 }
 
 .card-footer-modified {
-    background: #D9ACF5;
+    background: #F3CCFF;
 }
 
 .card-body-modified {
-    color: #865DFF;
-    background:#E5D1FA;
+    color: #ffffff;
+    background: #D09CFA;
 }
 
 .barlow {
