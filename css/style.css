@@ -348,7 +348,7 @@ img {
 }
 
 .body {
-    background: black linear-gradient(black, #1f1d1f);
+    background: linear-gradient(#95BDFF,#F7C8E0);
     overflow-x: unset;
     position: relative;
     top: 0;
@@ -362,8 +362,6 @@ img {
     /*border-left: transparent;*/
     /*border-bottom: transparent;*/
     /*border-top: transparent;*/
-
-
 
 
 }
@@ -430,7 +428,7 @@ img {
 
 .social-icon__link {
     font-size: 2rem;
-    color: #000000;
+    color: #645CBB;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
@@ -525,6 +523,8 @@ img {
 /*About us*/
 .h1_committee {
     border-style: solid;
+    color: rgb(217, 181, 119);
+    background: #411530;
 
     /*border-style: solid;*/
     /*border-right: transparent;*/
@@ -539,7 +539,7 @@ img {
     display: inline-block;
     justify-content: center;
     margin-left: 25%;
-    color: white;
+    color: rgb(217, 181, 119);
     background: black;
     /*padding-left: 5%;*/
     /*padding-right: 5%;*/
@@ -556,7 +556,8 @@ img {
     color: black;
     background: white;
 }
-.piyush_h1_1:hover{
+
+.piyush_h1_1:hover {
     display: inline-block;
     /*justify-content: center;*/
     /*margin-left: 35%;*/
@@ -564,7 +565,7 @@ img {
     background: white;
 }
 
-.piyush_h1{
+.piyush_h1 {
     display: inline-block;
     justify-content: center;
     margin-left: 25%;
@@ -576,29 +577,29 @@ img {
 }
 
 
-.piyush_h1_2{
+.piyush_h1_2 {
     display: inline-block;
     justify-content: center;
     margin-left: 18%;
-    color: white;
-    background: black;
+
     /*padding-left: 5%;*/
     /*padding-right: 5%;*/
     width: 68%;
 }
-.piyush_h1_2:hover{
+
+.piyush_h1_2:hover {
     display: inline-block;
     /*justify-content: center;*/
     /*margin-left: 35%;*/
     color: black;
     background: white;
 }
-.card-thickness{
+
+.card-thickness {
 
     margin: 0px;
     padding: 0px;
 }
-
 
 
 .final_flex {
@@ -612,21 +613,25 @@ img {
     background: transparent;
 }
 
-.card-header-modify{
-    background: white;
-}
-.card-footer-modified{
-    background: white;
-}
-.card-body-modified{
-    background: rgba(0,0,0,1);
+.card-header-modify {
+    background: #D9ACF5;
+    color:#645CBB;
 }
 
-.barlow{
+.card-footer-modified {
+    background: #D9ACF5;
+}
+
+.card-body-modified {
+    color: #865DFF;
+    background:#E5D1FA;
+}
+
+.barlow {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-.final_flex{
+.final_flex {
 
     display: flex;
     flex-wrap: wrap;
@@ -634,10 +639,9 @@ img {
     flex-direction: row;
 }
 
-.flex_try_1{
+.flex_try_1 {
     margin: 2.5%;
 }
-
 
 
 @media screen and (max-width: 1000px) {
