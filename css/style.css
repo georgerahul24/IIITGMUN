@@ -363,7 +363,7 @@ img {
     /*border-bottom: transparent;*/
     /*border-top: transparent;*/
 
-    width: 30%;
+
 
 
 }
@@ -442,7 +442,7 @@ img {
 
 .menu__link {
     font-size: 1.2rem;
-    color: #fff;
+    color: #ffffff;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
@@ -523,15 +523,6 @@ img {
 }
 
 /*About us*/
-#iiitgAboutus {
-    margin-left: 10%;
-}
-
-#yuvaanAboutus {
-    margin-left: 10%;
-}
-
-
 .h1_committee {
     border-style: solid;
 
@@ -547,21 +538,70 @@ img {
 .piyush_h1 {
     display: inline-block;
     justify-content: center;
-    margin-left: 35%;
+    margin-left: 25%;
     color: white;
     background: black;
+    /*padding-left: 5%;*/
+    /*padding-right: 5%;*/
+    width: 50%;
+
 
 }
+
 
 .piyush_h1:hover {
     display: inline-block;
-    justify-content: center;
-    margin-left: 35%;
+    /*justify-content: center;*/
+    /*margin-left: 35%;*/
     color: black;
     background: white;
-
+}
+.piyush_h1_1:hover{
+    display: inline-block;
+    /*justify-content: center;*/
+    /*margin-left: 35%;*/
+    color: black;
+    background: white;
 }
 
+.piyush_h1{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 25%;
+    color: white;
+    background: black;
+    /*padding-left: 5%;*/
+    /*padding-right: 5%;*/
+    width: 50%;
+}
+
+
+.piyush_h1_2{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 18%;
+    color: white;
+    background: black;
+    /*padding-left: 5%;*/
+    /*padding-right: 5%;*/
+    width: 68%;
+}
+.piyush_h1_2:hover{
+    display: inline-block;
+    /*justify-content: center;*/
+    /*margin-left: 35%;*/
+    color: black;
+    background: white;
+}
+.card-thickness{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.final_flex{
 
 .card-thickness {
 
@@ -584,16 +624,19 @@ img {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-.flex_try{
+.final_flex{
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
 }
 
-.final_flex{
+.flex_try_1{
     margin: 2.5%;
 }
+
+
 
 @media screen and (max-width: 1000px) {
 
@@ -602,13 +645,4 @@ img {
     .third {
         width: 70%;
     }
-
 }
-
-
-
-
-
-
-
-
