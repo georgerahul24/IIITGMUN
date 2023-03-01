@@ -600,11 +600,11 @@ img {
 .piyush_h1_2 {
     display: inline-block;
     justify-content: center;
-    margin-left: 18%;
+    
 
     /*padding-left: 5%;*/
     /*padding-right: 5%;*/
-    width: 68%;
+    width: 100%;
 }
 
 .piyush_h1_2:hover {
