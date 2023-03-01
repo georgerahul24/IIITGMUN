@@ -241,6 +241,12 @@
     transform: rotateY(180deg);
 }
 
+.secretariat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 /*Commitee*/
 
 .title {
