@@ -231,7 +231,7 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-    background-color: transparent;
+    background-color:transparent;
     color: black;
 }
 
@@ -693,5 +693,12 @@ img {
     backdrop-filter: blur(5px);
 
 }
-
+#asuthoshbhaiya{
+    margin-left: 30%;
+    margin-right: 0%;
+}
+#sanketkanuar{
+    margin-left: 20%;
+    margin-right: 0%;
+}
 
