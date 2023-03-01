@@ -1,12 +1,12 @@
-/***** Top content *****/
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap'); /***** Top content *****/
 
 
-
-.navbar-sticky{
+.navbar-sticky {
     position: sticky;
     background: white;
 }
-.navbar-color{
+
+.navbar-color {
     color: white;
     background: black;
     position: sticky;
@@ -18,10 +18,9 @@
     padding: 7em;
     text-align: center;
     background-repeat: no-repeat;
-
+    background: transparent;
     width: 100%;
     height: 80%;
-    background-repeat: no-repeat;
 
 }
 
@@ -47,7 +46,7 @@
     margin-top: 45px;
 }
 
-.SECRETARIAT{
+.SECRETARIAT {
     text-align: center;
     font-weight: bolder;
 }
@@ -61,11 +60,12 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
 }
-.card-hover{
+
+.card-hover {
     color: white;
     transition: 0.2s;
     font-size: 1em;
@@ -73,26 +73,25 @@
 
 }
 
-.card-hover:hover{
+.card-hover:hover {
 
     transition: 0.2s;
     font-size: 2em;
     width: 110%;
 }
 
-.card-footer{
+.card-footer {
     color: black;
     font-size: 0.5em;
 
 }
 
 
-
-.card-hover image{
+.card-hover image {
     width: 100%;
 }
 
-.card-hover image:hover{
+.card-hover image:hover {
     width: 80%;
 }
 
@@ -130,7 +129,7 @@
     padding: 20px;
 }
 
-.RegisterButton{
+.RegisterButton {
     color: black;
     background: white;
     font-size: 1em;
@@ -141,16 +140,16 @@
 
 }
 
-.RegisterButton:hover{
+.RegisterButton:hover {
     color: white;
-    border-radius:4PX ;
-    border:none;
+    border-radius: 4PX;
+    border: none;
     font-size: 2em;
     transition: 0.3s;
-    background:black;
+    background: black;
 }
 
-.btn1{
+.btn1 {
     font-size: 1.5em;
     transition: 0.5s;
     color: white;
@@ -160,7 +159,7 @@
     margin: 0px;
 }
 
-.btn1:hover{
+.btn1:hover {
     font-size: 2em;
     transition: 0.5s;
     color: antiquewhite;
@@ -168,14 +167,17 @@
     background: white;
 
 }
-.Phudu{
-   font-family: 'Phudu', cursive;
+
+.Phudu {
+    font-family: 'Phudu', cursive;
 }
-.Shantell{
-   font-family: 'Shantell Sans', cursive;
+
+.Shantell {
+    font-family: 'Shantell Sans', cursive;
 }
-.text{
-   font-family: 'Libre Baskerville', serif;
+
+.text {
+    font-family: 'Libre Baskerville', serif;
 }
 
 .card-block .btn-outline-primary {
@@ -322,34 +324,40 @@ img {
 .fadeIn-bottom {
     top: 80%
 }
-.Phudu{
+
+.Phudu {
     font-family: 'Phudu', cursive;
 
 }
-.Gloock{
+
+.Gloock {
     font-family: 'Gloock', serif;
 }
-.Anton{
+
+.Anton {
     font-family: 'Anton', sans-serif;
 
 }
-.text{
+
+.text {
     font-family: 'Anton', sans-serif;
 }
-.text1{
+
+.text1 {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-.body{
+.body {
     background: black linear-gradient(black, #1f1d1f);
     overflow-x: unset;
     position: relative;
-    top:0;
+    top: 0;
 
     left: 0;
 
 }
-#h1_1{
+
+#h1_1 {
     border-style: solid;
     /*border-left: transparent;*/
     /*border-bottom: transparent;*/
@@ -361,9 +369,7 @@ img {
 }
 
 
-
-
-.btn2{
+.btn2 {
     font-size: 1.5em;
     transition: 0.5s;
     color: white;
@@ -374,7 +380,7 @@ img {
     width: 100%;
 }
 
-.btn2:hover{
+.btn2:hover {
     font-size: 2em;
     transition: 0.5s;
 
@@ -382,7 +388,7 @@ img {
 
 }
 
-.flip-card-margin{
+.flip-card-margin {
     margin-bottom: 10%;
     margin-right: 0%;
 }
@@ -390,7 +396,7 @@ img {
 /*piyush's part*/
 
 
-.card-body{
+.card-body {
     color: #fff;
     background-color: #000000;
 }
@@ -429,6 +435,7 @@ img {
     display: inline-block;
     transition: 0.5s;
 }
+
 .social-icon__link:hover {
     transform: translateY(-10px);
 }
@@ -511,20 +518,21 @@ img {
     }
 }
 
-#aboutus{
+#aboutus {
 
 }
 
 /*About us*/
-#iiitgAboutus{
+#iiitgAboutus {
     margin-left: 10%;
 }
-#yuvaanAboutus{
+
+#yuvaanAboutus {
     margin-left: 10%;
 }
 
 
-.h1_committee{
+.h1_committee {
     border-style: solid;
 
     /*border-style: solid;*/
@@ -534,8 +542,9 @@ img {
 
     width: 30%;
 }
+
 /*Piyush h1*/
-.piyush_h1{
+.piyush_h1 {
     display: inline-block;
     justify-content: center;
     margin-left: 35%;
@@ -544,7 +553,7 @@ img {
 
 }
 
-.piyush_h1:hover{
+.piyush_h1:hover {
     display: inline-block;
     justify-content: center;
     margin-left: 35%;
@@ -554,8 +563,52 @@ img {
 }
 
 
-.card-thickness{
+.card-thickness {
 
     margin: 0px;
     padding: 0px;
+    background: transparent;
 }
+
+.card-header-modify{
+    background: white;
+}
+.card-footer-modified{
+    background: white;
+}
+.card-body-modified{
+    background: rgba(0,0,0,1);
+}
+
+.barlow{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.flex_try{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.final_flex{
+    margin: 2.5%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .first,
+    .second,
+    .third {
+        width: 70%;
+    }
+
+}
+
+
+
+
+
+
+
+
