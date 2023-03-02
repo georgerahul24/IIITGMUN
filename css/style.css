@@ -724,18 +724,18 @@ img {
 #asuthoshbhaiya{
     margin-left: 30%;
     margin-right: 0%;
+
+
 }
-#ashutosh_flip{
-    margin-left: 30%;
-    margin-right: 0%;
-}
+
 #sanketkanuar{
     margin-left: 14%;
     margin-right: 0%;
 }
 
-.try_again{
-    margin-left: 30%;
+#ashutosh_flip{
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 @media (max-width: 767px) {
@@ -748,10 +748,7 @@ img {
 
     }
 
-    #ashutosh_flip{
-        margin-left: 30%;
-        justify-content: center;
-    }
+
 
     #asuthoshbhaiya{
         margin-left: 36%;
