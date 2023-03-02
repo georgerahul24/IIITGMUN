@@ -553,7 +553,7 @@ img {
 .piyush_h1 {
     display: inline-block;
     justify-content: center;
-    margin-left: 25%;
+    /*margin-left: 25%;*/
     color: rgb(217, 181, 119);
     background: black;
     /*padding-left: 5%;*/
@@ -585,10 +585,10 @@ img {
 
 }
 
-.piyush_h1 {
+.piyush_h1 {    
     display: inline-block;
     justify-content: center;
-    margin-left: 25%;
+    /*margin-left: 25%;*/
     color: white;
     background: black;
     /*padding-left: 5%;*/
@@ -678,9 +678,19 @@ img {
     .heading_2,
     .heading_3 {
         width: 99%;
-        margin-left: 1%;
+
     }
 }
+
+@media screen and (max-width: 1000px){
+
+    .width_1,
+    .width_2,
+    .width_3 {
+        width: 0px;
+    }
+}
+
 .h1-color:hover{
     background: rgb(217, 181, 119);
     color: #30475E;
@@ -705,8 +715,15 @@ img {
     margin-left: 30%;
     margin-right: 0%;
 }
+#ashutosh_flip{
+    margin-left: 30%;
+    margin-right: 0%;
+}
 #sanketkanuar{
     margin-left: 14%;
     margin-right: 0%;
 }
 
+.try_again{
+    margin-left: 30%;
+}
