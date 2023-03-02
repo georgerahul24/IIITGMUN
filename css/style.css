@@ -293,6 +293,12 @@ img {
     border-radius: 5px
 }
 
+@media screen and (max-width: 757px){
+    #UNHRC_image {
+        margin-left: 15px;
+    }
+}
+
 .content-details {
     position: absolute;
     text-align: center;
