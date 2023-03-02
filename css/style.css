@@ -681,6 +681,16 @@ img {
 
     }
 }
+.mun_logo{
+    width: 50%;
+}
+
+@media screen and (max-width: 1000px){
+
+    .mun_logo {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 1000px){
 
