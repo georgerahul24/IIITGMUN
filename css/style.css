@@ -737,3 +737,23 @@ img {
 .try_again{
     margin-left: 30%;
 }
+
+@media (max-width: 767px) {
+    .flip-card-disappear {
+        display:none;
+    }
+
+    #sanketkanuar{
+        margin-left: 0%;
+    }
+
+    #ashutosh_flip{
+        margin-left: 0%;
+    }
+
+    #asuthoshbhaiya{
+        margin-left: 0%;
+    }
+}
+
+
