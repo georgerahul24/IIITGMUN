@@ -744,16 +744,35 @@ img {
     }
 
     #sanketkanuar{
-        margin-left: 0%;
+        margin-left: 20%;
+
     }
 
     #ashutosh_flip{
-        margin-left: 0%;
+        margin-left: 30%;
+        justify-content: center;
     }
 
     #asuthoshbhaiya{
-        margin-left: 0%;
+        margin-left: 36%;
+        justify-content: center;
     }
+
+    .all_in_one{
+        margin-left: 40%;
+    }
+
 }
 
+.IIITG_Heading{
+    color: #2D033B;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:300px){
+    .IIITG_Heading{
+        font-size: 0em;
+    }
+}
 
