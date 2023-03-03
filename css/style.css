@@ -293,6 +293,12 @@ img {
     border-radius: 5px
 }
 
+@media screen and (max-width: 757px){
+    #UNHRC_image {
+        margin-left: 25px;
+    }
+}
+
 .content-details {
     position: absolute;
     text-align: center;
@@ -744,19 +750,19 @@ img {
     }
 
     #sanketkanuar{
-        margin-left: 20%;
+        margin-left: 3.5%;
 
     }
 
 
 
     #asuthoshbhaiya{
-        margin-left: 36%;
+        margin-left: 4.1%;
         justify-content: center;
     }
 
     .all_in_one{
-        margin-left: 40%;
+        margin-left: 8%;
     }
 
 }
