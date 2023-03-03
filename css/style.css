@@ -293,6 +293,10 @@ img {
     border-radius: 5px
 }
 
+        margin-left: 25px;
+    }
+}
+
 .content-details {
     position: absolute;
     text-align: center;
@@ -705,7 +709,7 @@ img {
     background: rgb(217, 181, 119);
     color: #30475E;
     transition: 0.2s;
-    
+
 
 }
 .h1-color{
@@ -744,19 +748,19 @@ img {
     }
 
     #sanketkanuar{
-        margin-left: 12%;
+        margin-left: 3.5%;
 
     }
 
 
 
     #asuthoshbhaiya{
-        margin-left: 12%;
+        margin-left: 4.1%;
         justify-content: center;
     }
 
     .all_in_one{
-        margin-left: 20%;
+        margin-left: 8%;
     }
 
 }
